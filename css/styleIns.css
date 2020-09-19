@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-image: url(../recursos/img/fondo.jpg);
 }
 
 .container{
@@ -27,14 +28,14 @@ body{
 
 .container .imgBox img{
     width: 50%;
-    opacity: 0.2;
 }
 
 
-.container .contenido .nameless{
+.container .boxTitle .nameless{
     color: black;
     font-family: 'Sickness';
     font-size: 9em;
+    font-weight: 800;
     text-align: center;
     text-shadow: 5px 9px 1px red,
                 5px 9px 30px rgb(216, 80, 2),
@@ -42,31 +43,41 @@ body{
 }
 
 
-.container .buttons a button{
+.container .boxInstructions ul{
     position: relative;
-    top: 0;
-    left: 12%;
-    display: inline-block;
-    margin: 20px 50px;
-    padding: 20px 50px;
-    font-size: 2em;
-    font-family: 'Sickness';
-    border-radius: 30%;
-    border: none;
-    background: linear-gradient(#fa8514,#360a00);
+    top: 8%;
+    list-style: none;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 800;
     color: #fff;
-    text-shadow: 2px 1px 1px black;
-    cursor: pointer;
-    transition: all 1.5s ease;
+    text-shadow: 1px 4px 1px #000;
 }
 
-.container .buttons a button:hover{
+
+.container .boxInstructions ul li a button{
+    margin: 20px;
+    border: none;
+    border-radius: 30%;
+    background: linear-gradient(#fa8514,#360a00);
+    font-size: 0.5em;
+    font-family: 'Sickness';
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+.container .boxInstructions span{
+    color: #FFE801;
+}
+
+
+.container .boxInstructions ul li a button:hover{
     transform: scale(1.2);
     box-shadow: 0px 0px 30px 10px rgb(216, 80, 2);
 }
-
-
-
 
 
 
