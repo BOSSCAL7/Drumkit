@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/port.css" />
+    <title>Who Are We</title>
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">Nameless</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="contenido">
+            <h2>Hola Gente,<br>Yo Soy <span>Cristian Pérez</span></h2>
+            <p>
+                Soy aprendiz SENA y gracias a esta entidad puedo ejercer
+                lo que mas me gusta que es Desarrollo WEB te invito a que hagas
+                parte de esta familia y recuerda,<span class="frase">
+                "La mayor aventura que puedes tomar, es vivir la vida de tus sueños"</span>.<br>
+                -Oprah Winfrey
+                
+            </p>
+            <a href="#">Saber Mas</a>
+        </div>
+        <ul class="sci">
+            <li> <a href="#"><img src="recursos/img/facebook.png"></a></li>
+            <li><a href="#"><img src="recursos/img/twitter.png"></a></li>
+        </ul>
+    </section>
+    <div id="navegacion">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+    function toggle(){
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navegacion');
+        sec.classList.toggle('active')
+        nav.classList.toggle('active')
+    }
+    </script>
+</body>
+</html>

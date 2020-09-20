@@ -22,11 +22,11 @@ body{
 .container .imgBox{
     position: relative;
     top: 0;
-    right: 80%;
+    right: 40%;
 }
 
 .container .imgBox img{
-    width: 50%;
+    width: 30%;
     opacity: 0.2;
 }
 
@@ -34,7 +34,7 @@ body{
 .container .contenido .nameless{
     color: black;
     font-family: 'Sickness';
-    font-size: 9em;
+    font-size: 10em;
     text-align: center;
     text-shadow: 5px 9px 1px red,
                 5px 9px 30px rgb(216, 80, 2),
@@ -45,9 +45,9 @@ body{
 .container .buttons a button{
     position: relative;
     top: 0;
-    left: 12%;
+    left: 0;
     display: inline-block;
-    margin: 20px 50px;
+    margin: 20px 60px;
     padding: 20px 50px;
     font-size: 2em;
     font-family: 'Sickness';

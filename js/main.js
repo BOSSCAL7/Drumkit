@@ -22,49 +22,49 @@ window.onload = function(){
 
 /* ------------------------ Eventos de Click a los botones ----------------*/
 
-bombo.addEventListener("click", function(){
+bombo.addEventListener("click", () => {
     sonidoBombo(bombo.value);
     sonidoBombo(audioBombo.play())
     sonidoBombo(bombo.classList.toggle("bomboColor"))
 });
 
-tomAereo.addEventListener("click", function(){
+tomAereo.addEventListener("click", () => {
     sonidoTom(tomAereo.value)
     sonidoTom(audioTomAereo.play())
     sonidoTom(tomAereo.classList.toggle("tomColor"))
 });
 
-platidoIz.addEventListener("click", function(){
+platidoIz.addEventListener("click", () =>{
     sonidoPlaIz(platidoIz.value);
     sonidoPlaIz(audioPlaIz.play());
     sonidoPlaIz(platidoIz.classList.toggle("colorPlaIz"))
 });
 
-caja.addEventListener("click", function(){
+caja.addEventListener("click", () =>{
     sonidoCaja(caja.value);
     sonidoCaja(audioCaja.play());
     sonidoCaja(caja.classList.toggle("colorCaja"))
 });
 
-hit.addEventListener("click", function(){
+hit.addEventListener("click", () =>{
     sonidoHit(hit.value);
     sonidoHit(audioHit.play())
     sonidoHit(hit.classList.toggle("colorHit"))
 });
 
-ride.addEventListener("click", function(){
+ride.addEventListener("click", () =>{
     sonidoRide(ride.value);
     sonidoRide(audioRide.play())
     sonidoRide(ride.classList.toggle("colorRide"))
 });
 
-suelo.addEventListener("click", function(){
+suelo.addEventListener("click", () =>{
     sonidoSuelo(suelo.value);
     sonidoSuelo(audioSuelo.play())
     sonidoSuelo(suelo.classList.toggle("colorSuelo"))
 });
 
-platidoDe.addEventListener("click", function(){
+platidoDe.addEventListener("click", () =>{
     sonidoDerecho(platidoDe.value);
     sonidoDerecho(audioPlaDe.play())
     sonidoDerecho(platidoDe.classList.toggle("colorPlaDe"))
