@@ -70,8 +70,9 @@ body{
 }
 
 .container .boxInstructions span{
-    color: #FFE801;
+    color: yellow;
 }
+
 
 
 .container .boxInstructions ul li a button:hover{

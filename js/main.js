@@ -16,11 +16,9 @@ var audioRide = new Audio("../recursos/sounds/platillo-ride.mp3");
 var audioSuelo = new Audio("../recursos/sounds/tom-suelo.mp3");
 var audioPlaDe = new Audio("../recursos/sounds/platillo-crash-derecho2.mp3");
 
-/*
 window.onload = function(){
     document.onkeypress = teclas;
 }
-*/
 
 /* ------------------------ Eventos de Click a los botones ----------------*/
 
@@ -83,8 +81,6 @@ function sonidoBombo(bom){
     console.log(userBombo);
 }
 
-
-
 function sonidoTom(tom){
     userTom = tom;
     console.log(userTom);
@@ -120,17 +116,48 @@ function sonidoDerecho(de){
     console.log(usDerecho)
 }
 
-
-
-
-
-
 /*------------------------------------------------------*/
 
-/* Funcion de las teclas
+/* Funcion de las teclas*/
 function teclas(event){
     let codigo = event.keyCode;
     console.log(codigo)
+    console.log(String.fromCharCode(event.keyCode))
+    if (codigo === 113) {
+        audioPlaIz.play();
+        sonidoPlaIz(platidoIz.classList.toggle("colorPlaIz"))
+    }
+    if (codigo === 119) {
+        audioTomAereo.play();
+        sonidoTom(tomAereo.classList.toggle("tomColor"))
+    }
+    if (codigo === 101) {
+        audioRide.play();
+        sonidoRide(ride.classList.toggle("colorRide"))
+    }
+    if (codigo === 97) {
+        audioHit.play();
+        sonidoHit(hit.classList.toggle("colorHit"))
+    }
+    if (codigo === 115) {
+        audioCaja.play();
+        sonidoCaja(caja.classList.toggle("colorCaja"))
+    }
+    if (codigo === 100) {
+        audioSuelo.play();
+        sonidoSuelo(suelo.classList.toggle("colorSuelo"))
+    }
+    if (codigo === 102) {
+        audioPlaDe.play();
+        sonidoDerecho(platidoDe.classList.toggle("colorPlaDe"))
+    }
+    if (codigo === 32) {
+        audioBombo.play();
+        sonidoBombo(bombo.classList.toggle("bomboColor"));
+    }
+
+    /*--------------------------------------------------------------*/
+
 }
-*/
+
 

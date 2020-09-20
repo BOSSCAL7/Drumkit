@@ -58,6 +58,7 @@ body{
 
 .bomboColor{
     background: red;
+    color: red;
     border: none;
     opacity: 1;
 }
@@ -77,6 +78,7 @@ body{
 
 .tomColor{
     background: yellow;
+    color: yellow;
     border: none;
     opacity: 1;
 }
@@ -94,6 +96,7 @@ body{
 
 .colorPlaIz{
     background: yellowgreen;
+    color: yellowgreen;
     border: none;
     opacity: 1;
 }
@@ -112,6 +115,7 @@ body{
 
 .colorCaja{
     background: tomato;
+    color: tomato;
     border: none;
     opacity: 1;
 }
@@ -129,6 +133,7 @@ body{
 
 .colorHit{
     background: turquoise;
+    color: turquoise;
     border: none;
     opacity: 1;
 }
@@ -146,6 +151,7 @@ body{
 
 .colorRide{
     background: #46FF01;
+    color:  #46FF01;
     border: none;
     opacity: 1;
 }
@@ -164,6 +170,7 @@ body{
 
 .colorSuelo{
     background: #393939;
+    color: #393939;
     border: none;
     opacity: 1;
 }
@@ -181,6 +188,7 @@ body{
 
 .colorPlaDe{
     background: #0036FC;
+    color: #0036FC;
     border: none;
     opacity: 1;
 }
