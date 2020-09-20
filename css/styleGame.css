@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url(../recursos/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2fr, 1fr);
+    width: 100%;
+    height: 100vh;
+}
+
+.container .nameless{
+    position: relative;
+    top: 0;
+    left: 5%;
+    color: black;
+    font-family: 'Sickness';
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 5px 9px 1px red,
+                5px 9px 30px rgb(216, 80, 2),
+                5px 9px 40px rgb(216, 80, 2);
+}
+
+.container .drumkit{
+    display: flex;
+    position: relative;
+    top: -10%;
+    left: 5%;
+    width: 100%;
+    height: 70vh;
+}
+
+.container .drumkit img{
+    width: 800px;
+}
+
+.btn_bombo{
+    position: absolute;
+    border: none;
+    top: 48%;
+    left: 50%;
+    margin: 8px;
+    padding: 30px 5px;
+    border: none;
+    opacity: 0;
+}
+
+.bomboColor{
+    background: red;
+    border: none;
+    opacity: 1;
+}
+
+
+
+.btn_tom_aereo{
+    position: absolute;
+    border: none;
+    top: 38%;
+    left: 47%;
+    margin: 8px;
+    padding: 10px 0px;
+    border: none;
+    opacity: 0;
+}
+
+.tomColor{
+    background: yellow;
+    border: none;
+    opacity: 1;
+}
+
+.btn_platido_izquierdo{
+    position: absolute;
+    border: none;
+    top: 29%;
+    left: 40%;
+    margin: 8px;
+    padding: 25px 0px;
+    border: none;
+    opacity: 0;
+}
+
+.colorPlaIz{
+    background: yellowgreen;
+    border: none;
+    opacity: 1;
+}
+
+.btn_caja{
+    position: absolute;
+    border: none;
+    top: 54%;
+    left: 44%;
+    display: flex;
+    margin: 8px;
+    padding: 30px 20px;
+    border: none;
+    opacity: 0;
+}
+
+.colorCaja{
+    background: tomato;
+    border: none;
+    opacity: 1;
+}
+
+.btn_hit{
+    position: absolute;
+    border: none;
+    top: 50%;
+    left: 36%;
+    margin: 8px;
+    padding: 30px 10px;
+    border: none;
+    opacity: 0;
+}
+
+.colorHit{
+    background: turquoise;
+    border: none;
+    opacity: 1;
+}
+
+.btn_ride{
+    position: absolute;
+    border: none;
+    top: 33%;
+    left: 55%;
+    margin: 8px;
+    padding: 30px 5px;
+    border: none;
+    opacity: 0;
+}
+
+.colorRide{
+    background: #46FF01;
+    border: none;
+    opacity: 1;
+}
+
+
+.btn_suelo{
+    position: absolute;
+    border: none;
+    top: 52%;
+    left: 55%;
+    margin: 8px;
+    padding: 30px 5px;
+    border: none;
+    opacity: 0;
+}
+
+.colorSuelo{
+    background: #393939;
+    border: none;
+    opacity: 1;
+}
+
+.btn_derecho{
+    position: absolute;
+    border: none;
+    top: 55%;
+    left: 61%;
+    margin: 8px;
+    padding: 30px 5px;
+    border: none;
+    opacity: 0;
+}
+
+.colorPlaDe{
+    background: #0036FC;
+    border: none;
+    opacity: 1;
+}
