@@ -7,14 +7,14 @@ var ride = document.getElementById("btn_ride");
 var suelo = document.getElementById("btn_suelo")
 var platidoDe = document.getElementById("btn_derecho");
 
-var audioBombo = new Audio('../recursos/sounds/bombo.mp3');
-var audioTomAereo = new Audio('../recursos/sounds/tom-aereo.mp3');
-var audioPlaIz = new Audio('../recursos/sounds/platillo-crash-izquierdo.mp3');
-var audioCaja = new Audio("../recursos/sounds/caja.mp3");
-var audioHit = new Audio("../recursos/sounds/hit-hat.mp3");
-var audioRide = new Audio("../recursos/sounds/platillo-ride.mp3");
-var audioSuelo = new Audio("../recursos/sounds/tom-suelo.mp3");
-var audioPlaDe = new Audio("../recursos/sounds/platillo-crash-derecho2.mp3");
+var audioBombo = new Audio('recursos/sounds/bombo.mp3');
+var audioTomAereo = new Audio('recursos/sounds/tom-aereo.mp3');
+var audioPlaIz = new Audio('recursos/sounds/platillo-crash-izquierdo.mp3');
+var audioCaja = new Audio("recursos/sounds/caja.mp3");
+var audioHit = new Audio("recursos/sounds/hit-hat.mp3");
+var audioRide = new Audio("recursos/sounds/platillo-ride.mp3");
+var audioSuelo = new Audio("recursos/sounds/tom-suelo.mp3");
+var audioPlaDe = new Audio("recursos/sounds/platillo-crash-derecho2.mp3");
 
 window.onload = function(){
     document.onkeypress = teclas;
